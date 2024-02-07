@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarau</title>
+    <style>
+        /* Allgemeine Stile */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b9f7e6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Page Container */
+        .page {
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: 20px auto; /* Zentrieren des Inhalts */
+            border-radius: 10px;
+            max-width: 1200px; /* Maximale Breite des Inhalts */
+        }
+
+        /* Top-Bar */
+        .nav {
+            background-color: #b9f7e6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #333;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        /* Button */
+        .BS {
+            border-radius: 20px;
+            background-color: #ffffff;
+            border-color: #ffffff;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 20px 100px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-out, transform 0.2s;
+        }
+
+        .BS:hover {
+            border-color: #000000;
+            
+            border: #000;
+        }
+
+        .BS:active {
+            background-color: #1f951f;
+            transform: translateY(2px);
+        }
+
+        /* Content */
+        .content {
+            padding-top: 60px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        /* Responsive für kleine Bildschirme */
+        @media (max-width: 768px) {
+            .page {
+                padding: 10px;
+            }
+            .BS {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="Main_Content.html" class="BS">Menu</a>
+        <button class="BS">Button 2</button>
+        <button class="BS">Button 3</button>
+        <button class="BS">Button 4</button>
+    </div>
+
+    <div class="content">
+        <div class="page">
+            <h1>Aarau</h1>
+            <img src="Aarau.png" alt="Beschreibung des Bildes"> <br>
+
+            <H1>Aarau W, Zürich L</H1>
+            <br>
+            <h2>
+                Aarau mag vielleicht nicht so groß oder glamourös wie Zürich sein, aber während Zürich mit seinen überhöhten Preisen und dem hektischen Stadtleben prahlt, bietet Aarau eine wohlverdiente Auszeit. In Zürich fühlt man sich schnell wie in einem überfüllten Ameisenhaufen, während Aarau eine ruhigere, entspanntere Umgebung bietet, in der man wirklich das Leben genießen kann. Warum also sein hart verdientes Geld in Zürich verprassen, wenn man es in Aarau viel besser genießen kann?</h2>
+        </div>
+    </div>
+</body>
+</html>
